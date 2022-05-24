@@ -1,1 +1,1 @@
-Pagina web hecha con React que utiliza la api de Jikan.moe
+Pagina web de animes hecha con React que utiliza la api de Jikan.moe
