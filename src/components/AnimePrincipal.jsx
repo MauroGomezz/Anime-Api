@@ -1,5 +1,4 @@
 import React from 'react'
-import ScrollReveal from 'scrollreveal'
 
 function AnimePrincipal({ topAnime }) {
   return (
