@@ -2,7 +2,6 @@ import React from 'react'
 import ScrollReveal from 'scrollreveal'
 
 function AnimePrincipal({ topAnime }) {
-// ScrollReveal().reveal('.top-anime', {delay: 500});
   return (
     <div className='main'>
         <div className='top-anime-container'>
