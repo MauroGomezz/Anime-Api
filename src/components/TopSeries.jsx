@@ -45,9 +45,9 @@ return (
   <div>
     <div className='buttons-container'>
           <ul className="top-list">
-              <li><a onClick={()=> GetTopSeries("anime", "bypopularity")}>Top Animes</a></li>
-              <li><a onClick={()=> GetTopSeries("manga", "bypopularity")}>Top Mangas</a></li>
-              <li><a onClick={()=> GetTopSeries("anime", "movie")}>Top Peliculas</a></li>
+              <li><a href=' ' onClick={()=> GetTopSeries("anime", "bypopularity")}>Top Animes</a></li>
+              <li><a href=' ' onClick={()=> GetTopSeries("manga", "bypopularity")}>Top Mangas</a></li>
+              <li><a href=' ' onClick={()=> GetTopSeries("anime", "movie")}>Top Peliculas</a></li>
           </ul>
     <div className='buttons-container'>
       <div className='buttons'>
