@@ -10,7 +10,7 @@ function TopSeries() {
     const temp = await fetch(`https://api.jikan.moe/v3/top/${type}/1/${subType}`)
       .then(res => res.json());
 
-      SetTopSeries(temp.top.slice(0,24));
+      SetTopSeries(temp.top.slice(0,25));
   }
 
   useEffect(() => {

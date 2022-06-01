@@ -20,14 +20,14 @@ function App() {
     const temp = await fetch(`https://api.jikan.moe/v3/top/anime/1/airing`)
     .then(res => res.json());
 
-    SetAiringAnime(temp.top.slice(0,24));
+    SetAiringAnime(temp.top.slice(0,25));
   }
 
   const GetRecomendations = async () => {
     const temp = await fetch(`https://api.jikan.moe/v3/anime/1/recommendations`)
     .then(res => res.json());
 
-    SetRecomendations(temp.recommendations.slice(0,24));
+    SetRecomendations(temp.recommendations.slice(0,25));
   }
 
   useEffect(() => {
