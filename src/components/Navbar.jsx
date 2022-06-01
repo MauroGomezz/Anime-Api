@@ -12,7 +12,7 @@ function Navbar( ) {
         <div className='list-container'>
           <ul className='list'>
             <li><a href="http://localhost:3000/">Inicio</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="http://localhost:3000/">About</a></li>
           </ul>
         </div>
       </div>
